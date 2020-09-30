@@ -392,7 +392,43 @@ video {
     "aside footer footer footer footer footer";
 }
 
+.global__wrapper--bold {
+  font-weight: 800;
+  color: #fff;
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.global__wrapper--examples {
+  font-weight: 800;
+  color: rgb(53, 197, 24);
+}
+
+.global__wrapper--paragraph {
+  margin-bottom: 1.5rem;
+}
+
+.global__wrapper--list1 {
+  margin-left: 5rem;
+}
+.global__wrapper--list2 {
+  margin-left: 6rem;
+}
+.global__wrapper--blockquote {
+  font-style: italic;
+  font-family: monospace;
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 1.5rem 1.5rem 1.5rem 5rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 0.8rem;
+  padding: 0.2rem 0.2rem 0.2rem 0.8rem;
+  background: rgba(200, 200, 200, 0.5);
+}
+
 /* # HEADER */
+
 .header__wrapper {
   grid-area: header;
   gap: 0.5rem;
@@ -401,7 +437,7 @@ video {
 
 .header__wrapper h1 {
   font-size: 3rem;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -433,6 +469,17 @@ video {
 
 .content__wrapper h2 {
   font-size: 1.5rem;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.9rem;
+}
+
+.content__wrapper h3 {
+  font-size: 1.1rem;
   color: #ddd;
   margin-bottom: 1.5rem;
   text-align: center;
