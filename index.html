@@ -21,7 +21,7 @@
         <h2>Secciones y líneas generales de un documento HTML5.</h2>
 
         <p class="global__wrapper--paragraph">
-          La especificación HTML5 trae muchos nuevos elementos a los
+          La especificación <strong class="global__wrapper--bold">HTML5</strong> trae muchos nuevos elementos a los
           desarrolladores web, permitiéndoles describir la estructura de un
           documento web con semántica estandarizada. Este documento describe
           estos elementos y cómo usarlos para definir el perfil de cualquier
@@ -32,17 +32,16 @@
 
         <p class="global__wrapper--paragraph">
           La definición de la estructura de un documento en
-          <strong class="global__wrapper--bold"> HTML4 </strong> y su algoritmo
-          de perfilado es muy tosco y genera numerosos problemas:
+          <strong class="global__wrapper--bold">HTML4</strong> y su algoritmo de perfilado es muy tosco y genera numerosos problemas:
         </p>
 
         <ul>
           <li class="global__wrapper--list1">
             <p class="global__wrapper--paragraph">
               <strong class="global__wrapper--bold">HTML5</strong> quita la
-              necesidad de elementos <span class="global__wrapper--examples">&lt;div&gt; </span>; para definir secciones
+              necesidad de elementos <span class="global__wrapper--examples">&lt;div&gt; </span> para definir secciones
               semánticas sin definir valores epecíficos para los atributos
-              class; introduciendo un nuevo elemento, &lt;section&gt;, el
+              class introduciendo un nuevo elemento, <span class="global__wrapper--examples">&lt;section&gt;</span>, el
               elemento de sección
               <strong class="global__wrapper--bold">HTML</strong>.
             </p>
@@ -61,8 +60,7 @@
             <p class="global__wrapper--paragraph"><strong class="global__wrapper--bold">HTML5</strong> introduce el
             elemento <span class="global__wrapper--examples">  &lt;hgroup&gt;</span> oculta todos los elementos de cabecera
             excepto el primero de más alto rango (por ejemplo,
-            <span class="global__wrapper--examples">&lt;hgroup&gt;&lt;h1&gt;Justine &lt;h1&gt;Les Malheurs de la Vertu
-            &lt;/h1&gt; &lt;/hgroup&gt;</span>) crea el perfil 1 <span class="global__wrapper--examples">Justine</span>.</p>
+            <span class="global__wrapper--examples">&lt;hgroup&gt;&lt;h1&gt;</span>Justine <span class="global__wrapper--examples">&lt;h1&gt;</span>Les Malheurs de la Vertu<span class="global__wrapper--examples">&lt;/h1&gt; &lt;/hgroup&gt;</span>) crea el perfil 1 <span class="global__wrapper--bold">Justine</span>.</p>
           </li>
           <li class="global__wrapper--list1">
               <p class="global__wrapper--paragraph">Un documento puede tener secciones especiales conteniendo información relacionada que no es parte del flujo principal. <strong class="global__wrapper--bold">HTML5</strong> introduce el elemento <span class="global__wrapper--examples">&lt;aside&gt;</span> permitiendo a dichas secciones no ser parte del perfil principal.</p>
@@ -96,26 +94,48 @@
 
             <blockquote class="global__wrapper--blockquote">
                 <p class="global__wrapper--paragraph">
-                    NOTA: <br>
-                    Cada sección puede tener su propia jerarquía de cabeceras. Por lo tanto, incluso una sección anidada pued tener un elemento <span class="global__wrapper--examples global__wrapper--bold">&lt;h1&gt;</span>. Consulte también <a href="#" class="global__wrapper--bold">Definiendo cabeceras en HTML5</a>.
+                    <span class="global__wrapper--bold">NOTA: </span> <br>
+                    Cada sección puede tener su propia jerarquía de cabeceras. Por lo tanto, incluso una sección anidada pued tener un elemento <span class="global__wrapper--examples global__wrapper--bold">&lt;h1&gt;</span>.<br> Consulte también <a href="#" class="global__wrapper--bold">Definiendo cabeceras en HTML5</a>.
                 </p>
             </blockquote>
 
     
       </section>
       <section class="footer__wrapper">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-        quaerat, molestias hic exercitationem consectetur explicabo temporibus
-        assumenda accusantium ab facilis ut ipsa ducimus obcaecati praesentium
-        vitae, natus dolores unde porro debitis dolorum. At illo eligendi
-        deserunt ex. In, aliquid? Animi ad porro illo, mollitia obcaecati labore
-        est quo magni distinctio? Dolorum modi esse numquam harum facilis
-        voluptate voluptas repellat tempora?
+        <hr>
+       <h3> Secciones y líneas generales de un documento <span class="global__wrapper--bold">HTML5</span></h3>
+       <p>(c) ManuS 2020.</p>
       </section>
       <section class="aside__wrapper">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-        delectus, hic error labore necessitatibus ad maxime dignissimos velit,
-        doloribus sint ullam nisi repudiandae corporis voluptate!
+        <h3> Ejemplo </h3>
+         <p>
+           <pre>
+
+&lt;section&gt;
+     &lt;h1&gt;Forest elephants&lt;h1&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+     &lt;h1&gt;Introduction&lt;/h1&gt;
+     &lt;p&gt;In this section, we discuss 
+     the lesser known forest elephants.
+&lt;/section&gt;
+
+&lt;section&gt;
+    &lt;h1&gt;Habitat&lt;/h1&gt;
+    &lt;p&gt;Forest elephants do not 
+    live in trees but among them.
+&lt;/section&gt;
+
+&lt;aside&gt;
+    &lt;p&gt;advertising block
+&lt;/aside&gt;
+
+&lt;footer&gt;
+     &lt;p&gt;(c) 2010 The Example company
+&lt;/footer&gt;
+           </pre>
+          </p>
       </section>
     </div>
   </body>

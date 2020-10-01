@@ -500,6 +500,28 @@ video {
   line-height: 1.2rem;
 }
 
+.footer__wrapper h3 {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.9rem;
+}
+
+.footer__wrapper p {
+  /* font-size: 1.1rem; */
+  color: #ddd;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.9rem;
+}
+
 /* #ASIDE */
 .aside__wrapper {
   grid-area: aside;
@@ -510,4 +532,23 @@ video {
   line-height: 1.5rem;
   border-right: 0.5rem solid rgba(200, 200, 200, 0.5);
   border-radius: 0.5rem;
+}
+
+.aside__wrapper h3 {
+  font-size: 1.1rem;
+  color: #ddd;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05rem;
+  line-height: 1.9rem;
+}
+
+/* Eliminamos el ASIDE por debajo de 480px para hacer la web mobile responsive */
+
+@media screen and (max-width: 480px) {
+  .aside__wrapper {
+    display: none;
+  }
 }
